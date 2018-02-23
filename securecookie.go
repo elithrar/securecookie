@@ -62,7 +62,7 @@ func New(hashKey, blockKey []byte) *SecureCookie {
 }
 
 func Version() string {
-	return "v1.0.0"
+	return "v2.0.0"
 }
 
 // SecureCookie encodes and decodes authenticated and optionally encrypted
