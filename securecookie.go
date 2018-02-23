@@ -61,6 +61,10 @@ func New(hashKey, blockKey []byte) *SecureCookie {
 	return s
 }
 
+func Version() string {
+	return "v1.0.0"
+}
+
 // SecureCookie encodes and decodes authenticated and optionally encrypted
 // cookie values.
 type SecureCookie struct {
